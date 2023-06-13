@@ -1,0 +1,67 @@
+.login-now3 {
+  position: relative;
+  line-height: 100%;
+  font-weight: 600;
+}
+.buttons3 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--primary);
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.icongoogle-original1 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.buttons4 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-aliceblue);
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+  color: var(--primary);
+}
+.already-have-an1,
+.log-in1 {
+  position: relative;
+  line-height: 100%;
+  text-transform: capitalize;
+}
+.log-in1 {
+  color: var(--primary);
+}
+.already-have-an-account-group,
+.buttons-root {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  color: var(--text-tertiary);
+}
+.buttons-root {
+  position: relative;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--body-large-regular-size);
+  color: var(--white);
+  font-family: var(--body-large-regular);
+}
