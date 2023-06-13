@@ -98,6 +98,7 @@
   padding: var(--padding-xs) var(--padding-base);
   align-items: center;
   gap: var(--gap-8xs);
+  background: transparent;
 }
 .frame-parent,
 .input-text-container {
