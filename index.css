@@ -88,8 +88,10 @@
   align-self: stretch;
   display: flex;
   justify-content: flex-start;
+  width: 400px;
 }
-.input-text1 {
+.input-text1 input[type="password"] {
+  flex: 1;
   border-radius: var(--br-5xs);
   border: 1px solid var(--text-primary);
   flex-direction: row;
