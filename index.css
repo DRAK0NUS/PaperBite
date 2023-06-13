@@ -24,16 +24,11 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.context {
-  flex: 1;
-  position: relative;
-  line-height: 100%;
-}
-.iconeye {
-  position: relative;
-  width: 24px;
-  height: 24px;
-  display: none;
+.input-text input[type="text"] {
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  color: black; /* Set the text color */
 }
 .iconeye-wrapper {
   display: flex;
