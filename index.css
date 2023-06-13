@@ -24,6 +24,12 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+.iconeye {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  display: none;
+}
 .iconeye-wrapper {
   display: flex;
   flex-direction: row;
